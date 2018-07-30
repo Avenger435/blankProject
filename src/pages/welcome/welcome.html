@@ -11,25 +11,43 @@
   </ion-navbar>
 
 </ion-header>
-assets/imgs/Ebiryani.png
 
 <ion-content padding>
-
-  <p>
+<p>
     Welcome to home page
   </p>
-  <ion-list>
-      <ion-card>
-          <ion-img width="80" height="80" src="assets/imgs/Ebiryani.png"></ion-img>
-          <ion-card-content>
-            <ion-card-title>
-              Spicy Egg Biryani
-              </ion-card-title>
-            <p>
-                Special Egg Dum biryani 
-            </p>
-          </ion-card-content>
-        </ion-card>
+
+  
+
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="assets/imgs/Ebiryani.png">
+        </ion-thumbnail>
+        <h2>Chicken Biryani</h2>
+        <p>Rs. 240 /-</p>
+        <button ion-button clear item-end>Add</button>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="assets/imgs/Cbiryani.png">
+        </ion-thumbnail>
+        <h2>Spl Chicken Biryani</h2>
+        <p>Rs. 260/-</p>
+        <button ion-button clear item-end>Add</button>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="assets/imgs/Mbiryani.png">
+        </ion-thumbnail>
+        <h2>Mutton Biryani</h2>
+        <p>Rs. 270/-</p>
+        <button ion-button clear item-end>Add</button>
+      </ion-item>
+
     </ion-list>
+
+    <button ion-button (click)="continueToPay()">Continue</button>
+
 
 </ion-content>
