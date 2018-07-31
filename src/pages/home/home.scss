@@ -1,8 +1,13 @@
 page-home {
  #topButtons {
      display: flex;
+     color: brown;
  }
  #topButtons button{
      flex: 1;
+ }
+ .login-background {
+   background: url("../assets/imgs/delivery_1.png") no-repeat fixed center;
+   background-size: cover;
  }
 }

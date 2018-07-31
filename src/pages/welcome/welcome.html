@@ -4,7 +4,7 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
+<ion-header color="twitter">
 
   <ion-navbar>
     <ion-title>welcome</ion-title>
@@ -12,13 +12,13 @@
 
 </ion-header>
 
-<ion-content padding>
-<p>
-    Welcome to home page
-  </p>
-
-  
-
+<ion-content padding class='login-background'>
+    <ion-card-header color="twitter">
+   Choose from items
+  </ion-card-header>
+ <ion-card-header color="twitter">
+      Biryani Items
+    </ion-card-header>
     <ion-list>
       <ion-item>
         <ion-thumbnail item-start>
@@ -30,7 +30,7 @@
       </ion-item>
       <ion-item>
         <ion-thumbnail item-start>
-          <img src="assets/imgs/Cbiryani.png">
+          <img src="assets/imgs/Mbiryani.png">
         </ion-thumbnail>
         <h2>Spl Chicken Biryani</h2>
         <p>Rs. 260/-</p>
@@ -44,9 +44,81 @@
         <p>Rs. 270/-</p>
         <button ion-button clear item-end>Add</button>
       </ion-item>
-
+      <ion-item>
+          <ion-thumbnail item-start>
+            <img src="assets/imgs/Mbiryani.png">
+          </ion-thumbnail>
+          <h2>Spl Mutton Biryani</h2>
+          <p>Rs. 290/-</p>
+          <button ion-button clear item-end>Add</button>
+        </ion-item>
+        <ion-item>
+            <ion-thumbnail item-start>
+              <img src="assets/imgs/Mbiryani.png">
+            </ion-thumbnail>
+            <h2>Prawn Biryani</h2>
+            <p>Rs. 260/-</p>
+            <button ion-button clear item-end>Add</button>
+          </ion-item>
+          <ion-item>
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/Mbiryani.png">
+              </ion-thumbnail>
+              <h2>Chicken Dum Biryani</h2>
+              <p>Rs. 260/-</p>
+              <button ion-button clear item-end>Add</button>
+            </ion-item>
     </ion-list>
 
+    <ion-card-header color="twitter">
+        Curries
+      </ion-card-header>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="assets/imgs/Ebiryani.png">
+          </ion-thumbnail>
+          <h2>Chicken Curry</h2>
+          <p>Rs. 240 /-</p>
+          <button ion-button clear item-end>Add</button>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="assets/imgs/Mbiryani.png">
+          </ion-thumbnail>
+          <h2>Boneless Chkn Curry</h2>
+          <p>Rs. 260/-</p>
+          <button ion-button clear item-end>Add</button>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="assets/imgs/Mbiryani.png">
+          </ion-thumbnail>
+          <h2>Mutton Curry</h2>
+          <p>Rs. 270/-</p>
+          <button ion-button clear item-end>Add</button>
+        </ion-item>
+        <ion-item>
+            <ion-thumbnail item-start>
+              <img src="assets/imgs/Mbiryani.png">
+            </ion-thumbnail>
+            <h2>Fish Curry</h2>
+            <p>Rs. 290/-</p>
+            <button ion-button clear item-end>Add</button>
+          </ion-item>
+          <ion-item>
+              <ion-thumbnail item-start>
+                <img src="assets/imgs/Mbiryani.png">
+              </ion-thumbnail>
+              <h2>Prawn Curry</h2>
+              <p>Rs. 260/-</p>
+              <button ion-button clear item-end>Add</button>
+            </ion-item>
+           
+      </ion-list>
+  
+        
+      
     <button ion-button (click)="continueToPay()">Continue</button>
 
 

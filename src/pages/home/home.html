@@ -1,20 +1,28 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
+<ion-header class="md">
+  <ion-navbar >
+    <ion-title >
       RS Home Delivery
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 
+<ion-content padding  class="login-background">
+    <ion-card  class="md">
+        <img src="assets/imgs/delivery.png"/>
+        <ion-card-content>
+          <ion-card-title>
+            RS Delivery 
+            </ion-card-title>
+          <p>
+            Milk and Food
+          </p>
+        </ion-card-content>
+      </ion-card>
 
-<ion-content padding>
-
-  <div id="topButtons">
-    <button ion-button (click)="signIn()">Login</button>
-
-
-    <button ion-button (click)="signUp()">Register</button>
+  <div id="topButtons" >
+    <button ion-button (click)="signIn()" color="twitter">Login</button>
+    <button ion-button (click)="signUp()" color="twitter">Register</button>
   </div>
 
 </ion-content>
